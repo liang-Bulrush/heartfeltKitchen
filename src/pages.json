@@ -3,7 +3,11 @@
 		{
 			"path": "pages/index/index",
 			"style": {
-				"navigationBarTitleText": "uni-app"
+				"navigationBarTitleText": "欢迎页",
+				"navigationBarBackgroundColor": "#E6F5F1",
+				"navigationBarTextStyle": "black",
+				"backgroundTextStyle": "light",
+				"navigationStyle": "custom"
 			}
 		}
 	],

@@ -13,8 +13,7 @@ export default defineConfig({
   ],
   resolve: {
     alias: {
-      '@': path.resolve(__dirname, 'src'),
-      '@img': path.resolve(__dirname, 'src/static/images'),
+      '@': path.resolve(__dirname, 'src')
     },
   },
   css: {
