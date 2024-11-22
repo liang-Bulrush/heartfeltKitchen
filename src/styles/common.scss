@@ -1,0 +1,16 @@
+@import "./vars.scss";
+
+page {
+  box-sizing: border-box;
+  font-size: $font-size;
+}
+view,
+text {
+  font-size: $font-size;
+  box-sizing: border-box;
+  color: #333;
+}
+// 去除按钮默认边框
+button::after {
+  border: none;
+}
