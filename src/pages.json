@@ -9,8 +9,24 @@
 				"backgroundTextStyle": "light",
 				"navigationStyle": "custom"
 			}
+		},
+		{
+			"path": "pages/login/index",
+			"style": {
+				"navigationBarTitleText": "登录页",
+				"navigationBarBackgroundColor": "#E6F5F1",
+				"navigationBarTextStyle": "black",
+				"backgroundTextStyle": "light",
+				"navigationStyle": "custom"
+			}
 		}
 	],
+	"tabbar": {
+		"custom": true,
+		"list": [
+			{ "pagePath": "pages/index/index" }
+		]
+	},
 	"globalStyle": {
 		"navigationBarTextStyle": "black",
 		"navigationBarTitleText": "uni-app",
