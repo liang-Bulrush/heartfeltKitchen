@@ -1,36 +1,70 @@
 {
 	"pages": [
 		{
-			"path": "pages/index/index",
+			"path": "pages/home/home",
 			"style": {
-				"navigationBarTitleText": "欢迎页",
-				"navigationBarBackgroundColor": "#E6F5F1",
-				"navigationBarTextStyle": "black",
-				"backgroundTextStyle": "light",
+				"navigationBarTitleText": "暖心厨房",
 				"navigationStyle": "custom"
 			}
 		},
 		{
-			"path": "pages/login/index",
+			"path": "pages/list/list",
 			"style": {
-				"navigationBarTitleText": "登录页",
-				"navigationBarBackgroundColor": "#E6F5F1",
-				"navigationBarTextStyle": "black",
-				"backgroundTextStyle": "light",
+				"navigationBarTitleText": "美食列表"
+			}
+		},
+		{
+			"path": "pages/detail/detail",
+			"style": {
+				"navigationBarTitleText": "美食详情",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/profile/profile",
+			"style": {
+				"navigationBarTitleText": "个人中心",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/publish/publish",
+			"style": {
+				"navigationBarTitleText": "发布",
 				"navigationStyle": "custom"
 			}
 		}
 	],
-	"tabbar": {
-		"custom": true,
-		"list": [
-			{ "pagePath": "pages/index/index" }
-		]
-	},
 	"globalStyle": {
 		"navigationBarTextStyle": "black",
-		"navigationBarTitleText": "uni-app",
-		"navigationBarBackgroundColor": "#F8F8F8",
+		"navigationBarTitleText": "暖心厨房",
+		"navigationBarBackgroundColor": "#FFFFFF",
 		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"color": "#999999",
+		"selectedColor": "#ff6b35",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"list": [
+			{
+				"pagePath": "pages/home/home",
+				"text": "首页",
+				"iconPath": "static/tab-home.png",
+				"selectedIconPath": "static/tab-home-on.png"
+			},
+			{
+				"pagePath": "pages/list/list",
+				"text": "美食",
+				"iconPath": "static/tab-list.png",
+				"selectedIconPath": "static/tab-list-on.png"
+			},
+			{
+				"pagePath": "pages/profile/profile",
+				"text": "我的",
+				"iconPath": "static/tab-profile.png",
+				"selectedIconPath": "static/tab-profile-on.png"
+			}
+		]
 	}
 }
